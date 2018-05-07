@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.source       = { :git => "https://github.com/okrek/TOSearchBar.git", :tag => "#{s.version}" }
   s.source_files = 'TOSearchBarKit/*.{h,m}'
-  s.exclude_files = 'TOSearchBarKit/TOSearchBarKit.h'
+  #s.exclude_files = 'TOSearchBarKit/TOSearchBarKit.h'
   s.resource_bundles = {
     'TOSearchBarBundle' => ['TOSearchBarKit/*.lproj']
   }
